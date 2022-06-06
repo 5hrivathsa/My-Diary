@@ -94,6 +94,7 @@ class MainActivity : AppCompatActivity() {
                         Toast.makeText(this, "Failed!", Toast.LENGTH_SHORT).show()
                     }
                 }
+            startActivity(Intent(this, ViewActivity::class.java))
             }
 
         button.setOnClickListener {
