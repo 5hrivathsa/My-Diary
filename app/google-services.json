@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "114664942884",
+    "firebase_url": "https://my-diary-620b5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "my-diary-620b5",
+    "storage_bucket": "my-diary-620b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114664942884:android:b2ab0e32dcd5b6c9ba97b1",
+        "android_client_info": {
+          "package_name": "com.example.mydairy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114664942884-av0l2af09vunvsfn3nptdmjvqq05r6ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mydairy",
+            "certificate_hash": "ae6d04614348ab34e7bd0459e4d1966d790e5d3b"
+          }
+        },
+        {
+          "client_id": "114664942884-disdff68en6baj2nuror5a2ncj7j9jh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHirjIEsiCSyaTgDn66omrZWpvXl93gmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114664942884-disdff68en6baj2nuror5a2ncj7j9jh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

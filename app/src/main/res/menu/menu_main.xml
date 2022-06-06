@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/account">
+
+        <menu>
+            <item
+            android:id="@+id/miLogout"
+            android:title="@string/logout"
+            android:icon="@drawable/logouticonandroid29"
+            />
+
+            <item
+                android:title="@string/profile"
+                android:id="@+id/profile"
+                android:icon="@drawable/abcd"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/features">
+
+        <menu>
+            <item android:title="@string/Add"
+                android:id="@+id/Add_notes"
+                android:icon="@drawable/plus_android_app_aplication_phone512"
+                />
+
+            <item android:title="@string/delete"
+                android:id="@+id/delete"
+                android:icon="@drawable/dustbin"
+                />
+
+        </menu>
+
+    </item>
+
+    <item android:title="More">
+        <menu>
+            <item android:title="About"
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                />
+
+            <item android:title="Github"
+                android:id="@+id/github"
+                android:icon="@drawable/github"
+                />
+        </menu>
+    </item>
+
+</menu>

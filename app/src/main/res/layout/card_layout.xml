@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_margin="10dp"
+    android:backgroundTint = "@color/primary_dark"
+    app:contentPadding="5dp"
+    android:id="@+id/card_layout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_layout"
+        android:padding="16dp"
+        android:background="@color/primary_dark">
+
+        <TextView
+            android:id="@+id/title_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/relative_layout"
+            app:layout_constraintTop_toTopOf="@id/PageNo_display" />
+
+        <TextView
+            android:id="@+id/content_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            app:layout_constraintRight_toRightOf="@id/relative_layout"
+            app:layout_constraintTop_toBottomOf="@id/date_display" />
+
+        <TextView
+            android:id="@+id/date_display"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toLeftOf="@id/relative_layout"
+            app:layout_constraintTop_toBottomOf="@id/title_display" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/PageNo_display"
+            android:textStyle="italic"
+            app:layout_constraintRight_toRightOf="@id/relative_layout"
+            app:layout_constraintTop_toTopOf="@id/relative_layout"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
